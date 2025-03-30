@@ -7,7 +7,7 @@ script employs hash-based techniques to detect unauthorized changes, deletions, 
 recreating this script, I aimed to develop my understanding of FIM and its importance in security monitoring.
 
 ## Skills Learned
-- Core understanding of file integrity monitoring (FIM)
+- Core understanding of file integrity monitoring 
 - Implemented hashing algorithms in PowerShell
 - Improved knowledge of cybersecurity best practices in detecting potential threats through file integrity checks
 - Gained insight into security auditing techniques
