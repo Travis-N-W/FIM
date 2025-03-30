@@ -1,4 +1,4 @@
-# Basic File Integrity Monitor (FIM) in PowerShell
+# Basic File Integrity Monitor in PowerShell
 
 ## Brief Objective
 In this project, I reproduced a basic File Integrity Monitor (FIM) using PowerShell ISE, emulating the core 
