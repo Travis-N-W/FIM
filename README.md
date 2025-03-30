@@ -114,6 +114,12 @@ elseif ($response -eq "B".ToUpper()) {
 ```
 
 ## Demonstration
-- Notification that a file has been deleted/moved out of the folder
-- Notification that a file has been created
-- Notification that text within the file has been changed
+### Notification that a file has been deleted/moved out of the folder
+![Screenshot 2025-03-20 135721](https://github.com/user-attachments/assets/4f36fd4f-5347-4cc0-9869-a6296ea59afb)
+### Notification that a file has been created
+![Screenshot 2025-03-20 135758](https://github.com/user-attachments/assets/88816525-bce7-4fb4-9a76-c32d14efb78c)
+### Notification that text within the file has been changed
+![Screenshot 2025-03-20 135838](https://github.com/user-attachments/assets/c74b5d8a-d4d4-436d-a53b-bbad65c65bdf)
+
+
+
