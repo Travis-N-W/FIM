@@ -1,6 +1,6 @@
 # Basic File Integrity Monitor in PowerShell
 
-## Brief Objective
+## Project Objective
 In this project, I reproduced a basic File Integrity Monitor (FIM) using PowerShell ISE, emulating the core 
 functionality typically used in enterprise environments to monitor and ensure the integrity of critical files. The 
 script employs hash-based techniques to detect unauthorized changes, deletions, or modifications of files. By 
