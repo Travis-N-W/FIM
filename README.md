@@ -54,7 +54,7 @@ if ($response -eq "A".ToUpper()) {
     # Collect all files in the target folder
     $files = Get-ChildItem -Path .\Files
     
-    #for each file, calculate the hash, and write to baseline.txt
+    # For each file, calculate the hash and write to baseline.txt
     foreach ($f in $files) {
         $hash = Calculate-File-Hash $f.Fullname
         "$($hash.Path)|$($hash.Hash)" | Out-File -FilePath .\baseline.txt -Append
@@ -79,12 +79,12 @@ elseif ($response -eq "B".ToUpper()) {
         
         $files = Get-ChildItem -Path .\Files
     
-        #for each file, calculate the hash, and write to baseline.txt
+        # For each file, calculate the hash, and write to baseline.txt
         foreach ($f in $files) {
             $hash = Calculate-File-Hash $f.Fullname
             #"$($hash.Path)|$($hash.Hash)" | Out-File -FilePath .\baseline.txt -Append
 
-            #Notify if a new file has been created
+            # Notify if a new file has been created
             if ($fileHashDictionary[$hash.Path] -eq $null) {
                 # A file has been created!
                 Write-Host "$($hash.Path) has been created!" -ForegroundColor Green 
@@ -96,7 +96,7 @@ elseif ($response -eq "B".ToUpper()) {
                     # The file has not changed
                 }
                 else {
-                    # File file has been compromised!, notify the user
+                    # File file has been compromised! Notify the user
                     Write-Host "$($hash.Path) has changed!!!" -ForegroundColor Red
                 }
             }
